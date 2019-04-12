@@ -5,7 +5,7 @@ def prime?(int)
  if int <= 0
    false
      
-  elsif int == (2, 3, 7, 9, 11, 13, 17, 19)
+  elsif int == [2, 3, 7, 9, 11, 13, 17, 19]
     true
     
   else  
