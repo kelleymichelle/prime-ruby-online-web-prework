@@ -3,10 +3,10 @@
 def prime?(int)
  
  if int <= 2
-  puts false
+  return false
      
   elsif int == [2, 3, 7, 9, 11, 13, 17, 19]
-    puts true
+    return true
     
   else  
     
