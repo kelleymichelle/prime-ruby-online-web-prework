@@ -9,6 +9,5 @@ def prime?(int)
    
    (2..int-1).to_a.all?{|number|binding.pry}
   
-  binding.pry
   end 
 end
