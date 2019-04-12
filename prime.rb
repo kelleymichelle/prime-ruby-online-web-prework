@@ -7,7 +7,7 @@ def prime?(int)
      
  else 
    
-   (2..int-1).to_a.all?{|number|binding.pry}
+   (2..int-1).to_a.all?{|number|}
   
   end 
 end
