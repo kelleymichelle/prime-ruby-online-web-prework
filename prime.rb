@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def prime?(int)
  
@@ -7,7 +7,7 @@ def prime?(int)
      
  else 
    
-   (2..int-1).to_a.all?{|number|}
+   (2..int-1).to_a.all?{|number| int%number!=0}
   
   end 
 end
